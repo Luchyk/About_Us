@@ -1,0 +1,306 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+  font-family: "SF-Pro-Display", "sans-serif";
+  max-width: 1440px;
+  margin: 0 auto;
+}
+a,
+button,
+p,
+ul,
+li,
+div {
+  font-family: "SF-Pro-Display", "sans-serif";
+}
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url('fonts/sf-pro-display-light.otf');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url('fonts/sf-pro-display-regular.otf');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url('fonts/sf-pro-display-medium.otf');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url('fonts/sf-pro-display-bold.otf');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url('fonts/sf-pro-display-black.otf');
+  font-weight: 900;
+  font-display: swap;
+}
+
+.main{
+  margin: 0 auto;
+  width:85%;
+}
+.head{
+margin-top: 86px;
+height: 62px;
+}
+.head h1{
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 56px;
+  text-align: center;
+  color: #4A4A4A;
+}
+.text{
+  margin-top: 35px;
+  font-size: 18px;
+  line-height: 130%
+  font-weight: 400;
+  text-align: center;
+  color: #4A4A4A;
+}
+
+.image1{
+margin: 0 auto;
+width: 198px;
+height: 196px;
+left: 253px;
+top: 400px;
+background: url(img/Ivan.jpg);
+border-radius: 198px;
+}
+.image2{
+margin: 0 auto;
+width: 198px;
+height: 196px;
+left: 253px;
+top: 400px;
+background: url(img/Youriy.jpg);
+border-radius: 198px;
+}
+.image3{
+margin: 0 auto;
+width: 198px;
+height: 196px;
+left: 253px;
+top: 400px;
+background: url(img/Volodymyr.jpg);
+border-radius: 198px;
+}
+.image4{
+margin: 0 auto;
+width: 198px;
+height: 196px;
+left: 253px;
+top: 400px;
+background: url(img/Kseniya.jpg);
+border-radius: 198px;
+}
+.image5{
+margin: 0 auto;
+width: 198px;
+height: 196px;
+left: 253px;
+top: 400px;
+background: url(img/Kyrilo.jpg);
+border-radius: 198px;
+}
+
+.name{
+margin-top: 30px;
+height: 45px;
+text-align: center;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 39px;
+letter-spacing: 0.282353px;
+}
+.position{
+  height: 80px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.282353px;
+}
+.gallery{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+}
+.person{
+margin-top:57px;
+width:33%;
+height:320px;
+}
+@media (max-width: 1023px) {
+  .person {
+    width:50%;
+  }
+}
+@media (max-width: 767px) {
+  .person {
+    width:100%;
+  }
+}
+
+.group{
+  margin:auto;
+  width: 74%;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+@media (max-width: 649px) {
+  .group{
+    width:90%
+  }
+}
+.container{
+  margin: 0 auto;
+  width:100%;
+}
+.container{
+  margin: 0 auto;
+  width:100%;
+}
+.rewievs{
+margin-top: 120px;
+margin-bottom: 40px;
+text-align: center;
+}
+.rewievs h2{
+  margin:0 auto;
+  width:80%;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 56px;
+  text-align: center;
+  color: #4A4A4A;
+}
+.box{
+  margin-top: 27px;
+  width:50%;
+  height:auto;
+}
+
+@media (max-width: 1200px) {
+  .box{
+    height:auto;
+    width: 80%;
+  }
+}
+@media (max-width: 649px) {
+  .box{
+    height:auto;
+    width: 90%;
+  }
+}
+@media (max-width: 660px) {
+  .container{
+    height:600px;
+  }
+}
+
+.per-container{
+margin: auto;
+display:flex;
+justify-content: space-around;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius:20px;
+width: 500px;
+padding: 15px;
+}
+@media (max-width: 400px) {
+  .per-container{
+    width:50%;
+    display:block;
+  }
+}
+
+@media (max-width: 649px) {
+  .per-container{
+    width:90%;
+    display:block;
+  }
+}
+.per-group{
+margin: auto;
+}
+@media (max-width: 649px) {
+  .per-group{
+  margin: auto;
+  padding-top: 20px;
+  }
+}
+.im1 {
+margin: auto;
+width: 102px;
+height: 101px;
+background: url(img/Ivan_small.jpg);
+border-radius: 102px;
+}
+.im2 {
+margin: auto;
+width: 102px;
+height: 101px;
+background: url(img/Ivan_small.jpg);
+border-radius: 102px;
+}
+.im3 {
+margin:auto;
+width: 102px;
+height: 101px;
+background: url(img/Ivan_small.jpg);
+border-radius: 102px;
+}
+.n{
+text-align: center;
+width: 136px;
+
+}
+@media (max-width: 400px) {
+  .n{
+    margin:0 auto;
+  }
+}
+@media (max-width: 649px) {
+  .n{
+    margin:0 auto;
+  }
+}
+.rew{
+margin: auto;
+width: 60%;
+font-style: normal;
+font-weight: normal;
+text-align: justify;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.282353px;
+color: #000000;
+}
+@media (max-width: 649px) {
+  .rew{
+    margin:0 auto;
+    justify-content: center;
+    width:auto;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 0;
+  }
+}
